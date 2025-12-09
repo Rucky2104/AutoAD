@@ -1,0 +1,12 @@
+:root{ --bg:#0f1724; --accent:#1e40af }
+body{ margin:0; font-family: Inter, Arial, sans-serif; background:linear-gradient(180deg,#071021,#071126); color:#dbe7ff }
+.app{ display:grid; grid-template-columns:280px 1fr 360px; gap:16px; padding:20px; height:100vh; box-sizing:border-box }
+.sidebar{ background: linear-gradient(180deg,#071426,#081629); padding:16px; border-radius:8px }
+.panel{ background: rgba(255,255,255,0.03); padding:12px; border-radius:8px; overflow:auto }
+.header{ display:flex; justify-content:space-between; align-items:center; margin-bottom:12px }
+button{ background:var(--accent); color:white; border: none; padding:8px 10px; border-radius:6px; cursor:pointer }
+input, select{ padding:8px; border-radius:6px; border:1px solid rgba(255,255,255,0.06); background:transparent; color:inherit }
+.feed{ max-height:70vh; overflow:auto }
+.card{ background: rgba(255,255,255,0.02); padding:10px; margin-bottom:8px; border-radius:8px }
+.table{ width:100%; border-collapse:collapse }
+.table th, .table td{ padding:8px; text-align:left; border-bottom:1px solid rgba(255,255,255,0.03) }
