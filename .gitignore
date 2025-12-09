@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+
+# Virtualenv
+.venv/
+
+
+# Databases & logs
+*.db
+logs/
+*.log
+
+
+# IDE
+.vscode/
+.idea/
+
+
+# OS
+.DS_Store
