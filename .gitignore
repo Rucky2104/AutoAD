@@ -7,12 +7,15 @@ __pycache__/
 # Virtualenv
 .venv/
 
+# Node
+node_modules/
+
 
 # Databases & logs
 *.db
 logs/
 *.log
-
+ad_runner.db
 
 # IDE
 .vscode/
